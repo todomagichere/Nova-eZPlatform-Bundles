@@ -11,7 +11,7 @@
 
 import React, { PureComponent } from 'react'
 import PropTypes from 'prop-types'
-import { loadLocationItems } from '../../../../../../ezsystems/ezplatform-admin-ui-modules/src/modules/content-tree/services/content.tree.service'
+import { loadLocationItems } from '../../../../../../ezplatform/vendor/ezsystems/ezplatform-admin-ui/src/bundle/ui-dev/src/modules/content-tree/services/content.tree.service.js'
 import $ from 'jquery'
 import 'jstree/dist/jstree'
 

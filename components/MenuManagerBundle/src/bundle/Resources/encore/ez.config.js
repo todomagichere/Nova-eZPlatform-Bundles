@@ -14,4 +14,10 @@ module.exports = (Encore) => {
   Encore.addEntry('ezplatform-admin-ui-modules-menu-manager-js', [
     path.resolve(__dirname, '../../../modules/menu-manager/menu.manager.renderer.js')
   ])
+
+  Encore.addEntry('ezplatform-admin-ui-modules-menu-manager-css', [
+    path.resolve(__dirname, '../public/css/open-iconic-bootstrap.min.css'),
+    path.resolve(__dirname, '../public/css/menu-manager.css')
+  ])
+
 }
