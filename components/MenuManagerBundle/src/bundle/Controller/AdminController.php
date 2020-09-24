@@ -183,7 +183,7 @@ class AdminController extends Controller
             '@EzMenuManager/themes/standard/menu_manager/admin/edit.html.twig',
             [
                 'form' => $form->createView(),
-                'title' => $menu->getId() ? $menu->getName() : 'menu.new',
+                'title' => $menu->getId() ? $menu->getName() : $this->translator->trans('menu.new', [], 'menu_manager'),
                 'lastUrl' => $lastAccessedUrl,
             ]
         );
